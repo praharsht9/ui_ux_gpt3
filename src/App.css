@@ -43,3 +43,17 @@ body {
 		rgba(4, 12, 24, 1) 25%
 	);
 }
+
+.section__padding {
+	padding: 4rem 6rem;
+}
+
+.section__margin {
+	margin: 4rem 6rem;
+}
+.side_section__padding {
+	padding: 0rem 6rem;
+}
+.side_section__margin {
+	margin: 0rem 6rem;
+}

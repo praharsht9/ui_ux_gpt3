@@ -5,7 +5,7 @@ import './navbar.css';
 const NavBar = () => {
 	return (
 		<div>
-			<div className='gpt3__navbar'>
+			<div className='gpt3__navbar side_section__padding'>
 				<div className='gpt3__navbar-link'>
 					<div className='gpt__navbar-logo'>
 						<img src={logo} alt='gpt-3' />
@@ -26,6 +26,10 @@ const NavBar = () => {
 						<p>
 							<a href='#blog'>Library</a>
 						</p>
+					</div>
+					<div className='gpt3__header_btn'>
+						<p>Sign in</p>
+						<button type='button'>Sign Up</button>
 					</div>
 				</div>
 			</div>
