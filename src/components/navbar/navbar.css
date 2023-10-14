@@ -4,10 +4,13 @@
 	fill: #ffffff;
 }
 
-.navbar-links_container a {
+.navbar-links_container a,
+.navbar-links_container p {
 	color: white;
 	text-decoration: none;
 	cursor: pointer;
+	text-align: center;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 .gpt3__navbar-link {
 	display: grid;
@@ -36,6 +39,7 @@
 	text-transform: capitalize;
 	margin: 0 1rem;
 	cursor: pointer;
+	text-align: right;
 }
 .gpt3__header_btn button {
 	padding: 0.5rem 1rem;
