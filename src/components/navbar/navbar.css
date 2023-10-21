@@ -54,3 +54,68 @@
 	cursor: pointer;
 	border-radius: 5px;
 }
+@media screen and (min-width: 800px) {
+	/* #desktop-menu p {
+		display: grid;
+		grid-template-columns: 1fr;
+		justify-content: center;
+		align-content: center;
+	} */
+	.gpt3__navbar-menu {
+		display: none !important;
+		width: 100%;
+	}
+	.menu-list {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		width: 550px;
+		justify-content: space-evenly;
+		/* background-color: red; */
+	}
+}
+
+@media screen and (max-width: 550px) {
+	#desktop-menu {
+		display: none !important;
+		/* display: block; */
+	}
+	.gpt3__navbar-link {
+		padding: 2rem;
+	}
+	.gpt3__header_btn {
+		display: none;
+	}
+	.navbar-links_container {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 5px;
+	}
+	.gpt3__navbar-link {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-self: center;
+		align-items: center;
+	}
+	.gpt__navbar-logo {
+		display: grid;
+		grid-template-columns: 1fr;
+		/* margin: auto; */
+		width: 100%;
+		position: relative;
+		right: 7rem;
+		padding: 1rem;
+		bottom: 15px;
+	}
+	.gpt3__navbar-menu {
+		line-height: 2rem;
+		position: absolute;
+		right: 20px;
+		top: 40px;
+	}
+	#mobile_btn {
+		display: block;
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 15px;
+	}
+}
