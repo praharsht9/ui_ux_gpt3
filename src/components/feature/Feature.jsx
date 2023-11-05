@@ -5,7 +5,9 @@ const Feature = ({ title, text }) => {
 	return (
 		<div className='main-container'>
 			<div className='gpt-title'>
-				<h1>{title}</h1>
+				<div className='heading-top'>
+					<h1>{title}</h1>
+				</div>
 			</div>
 			<div className='gpttext'>
 				<p>{text} </p>

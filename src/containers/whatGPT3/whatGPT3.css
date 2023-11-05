@@ -46,3 +46,43 @@
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 20px;
 }
+
+@media screen and (max-width: 550px) {
+	.main_container {
+		background: -webkit-radial-gradient(
+			circle at 30% -100%,
+			#042c54 25%,
+			rgba(4, 44, 84, 1) 85%,
+			rgba(27, 120, 222, 1) 100%
+		);
+		margin-top: 4rem;
+		width: 360px;
+		padding: 1.6rem;
+	}
+	.gpt_heading h1 {
+		font-size: 28px;
+		line-height: 1.3;
+		padding-bottom: 0.5rem;
+	}
+
+	.gpt__features {
+		display: grid;
+		grid-template-columns: 1fr;
+		/* color: white; */
+	}
+	.gpt_heading {
+		margin-top: 1rem;
+		display: grid;
+		grid-template-columns: 1fr;
+		color: white;
+	}
+	.gpt3_container {
+		margin-top: -2rem;
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
+	.gpt_heading p {
+		padding-bottom: 2rem;
+	}
+}
